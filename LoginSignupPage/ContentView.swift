@@ -10,7 +10,9 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        Home()
+        // for light status bar...
+        .preferredColorScheme(.dark)
     }
 }
 
